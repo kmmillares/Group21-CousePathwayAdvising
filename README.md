@@ -179,7 +179,6 @@ Use the same Python launcher to run the project so that it uses the interpreter 
 
 1. Place the Python files and CSV file in the same project folder.
 2. Run the app.py through streamlit by using this command in the terminal.
-   streamlit run app.py
    ```Python
    streamlit run app.py
    ```
