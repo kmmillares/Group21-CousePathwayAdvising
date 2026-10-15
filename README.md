@@ -178,9 +178,9 @@ Use the same Python launcher to run the project so that it uses the interpreter 
 ## How to Use
 
 1. Place the Python files and CSV file in the same project folder.
-2. Run the Python program or start the Streamlit interface.
-3. Upload `course_pathway_records.csv` when prompted.
-4. Search for a student profile, such as `S001`.
+2. Run the Python program and start the Streamlit interface.
+3. Upload `course_pathway_records.csv` on the left side.
+4. Search for a student profile, example: `S001`.
 5. Enter or select the following information:
    - Target career
    - Mathematics grade
@@ -188,7 +188,7 @@ Use the same Python launcher to run the project so that it uses the interpreter 
    - Interest ratings
 6. Click **Save Profile**.
 7. Review the recommended courses and unmet prerequisites.
-8. Save the results as a CSV file when needed.
+8. Save the results as a CSV file.
 
 ## Important Notes
 
@@ -207,12 +207,7 @@ Use the same Python launcher to run the project so that it uses the interpreter 
 
 - **CSV will not load:** Check that the file is saved as `.csv`, uploaded correctly, and not corrupted.
 - **Missing columns:** Verify that the CSV contains all required column names.
-- **Course not recognized:** Ensure course names exactly match the course catalog.
-- **Career not recognized:** Check spelling, capitalization, and extra spaces.
 - **No recommendations:** Review the student's target career and unmet prerequisites.
-- **Incorrect prerequisites:** Ensure course names are consistent in both the catalog and CSV file.
-- **Unexpected scores:** Confirm that grades are between 0 and 100 and interest ratings are between 1 and 5.
-- **Undefined variables or functions:** Run the notebook cells in the correct order or use **Runtime > Run all** in Google Colab.
 
 ## Project Limitations
 
