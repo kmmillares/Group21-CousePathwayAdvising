@@ -167,9 +167,9 @@ The project requires:
 - OpenPyXL
 - Streamlit
 
-Install the dependencies using PowerShell:
+Install the dependencies:
 
-```Python
+```Powershell
 py -m pip install pandas numpy scipy openpyxl streamlit
 ```
 
