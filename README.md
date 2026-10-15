@@ -169,7 +169,7 @@ The project requires:
 
 Install the dependencies using PowerShell:
 
-```powershell
+```Python
 py -m pip install pandas numpy scipy openpyxl streamlit
 ```
 
@@ -178,17 +178,21 @@ Use the same Python launcher to run the project so that it uses the interpreter 
 ## How to Use
 
 1. Place the Python files and CSV file in the same project folder.
-2. Run the app.py program and start the Streamlit interface.
-3. Upload `course_pathway_records.csv` on the interface.
-4. Search for a student profile, example: `S001`.
-5. Enter or select the following information:
+2. Run the app.py through streamlit by using this command in the terminal.
+   streamlit run app.py
+   ```Python
+   streamlit run app.py
+   ```
+4. Upload `course_pathway_records.csv` on the interface.
+5. Search for a student profile, example: `S001`.
+6. Enter or select the following information:
    - Target career
    - Mathematics grade
    - Programming grade
    - Interest ratings
-6. Click **Save Profile**.
-7. Review the recommended courses and unmet prerequisites.
-8. Save the results as a CSV file.
+7. Click **Save Profile**.
+8. Review the recommended courses and unmet prerequisites.
+9. Save the results as a CSV file.
 
 ## Important Notes
 
