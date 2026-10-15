@@ -178,8 +178,8 @@ Use the same Python launcher to run the project so that it uses the interpreter 
 ## How to Use
 
 1. Place the Python files and CSV file in the same project folder.
-2. Run the Python program and start the Streamlit interface.
-3. Upload `course_pathway_records.csv` on the left side.
+2. Run the app.py program and start the Streamlit interface.
+3. Upload `course_pathway_records.csv` on the interface.
 4. Search for a student profile, example: `S001`.
 5. Enter or select the following information:
    - Target career
